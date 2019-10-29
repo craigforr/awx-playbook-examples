@@ -1,0 +1,24 @@
+# .gitattributes for Repository with Mixed Windows and UNIX files
+# See: https://help.github.com/en/articles/dealing-with-line-endings
+
+# Set the default behavior, for those that don't have core.autocrlf set.
+*               text=auto
+
+# Declare files that will always have CRLF line endings on checkout.
+*.ps1           text    eol=crlf
+
+# Declare files that will always have LF line endings on checkout.
+*.config        text    eol=lf
+*.conf          text    eol=lf
+*.sh            text    eol=lf
+.bash*          text    eol=lf
+.gitattributes  text    eol=lf
+.gitignore      text    eol=lf
+.vimrc          text    eol=lf
+azure_config.ini  text  eol=lf
+Vagrantfile     text    eol=lf
+
+# Denote all files that are truly binary and should not be modified.
+*.jpg           binary
+*.png           binary
+

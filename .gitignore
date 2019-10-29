@@ -1,0 +1,15 @@
+# Ansible
+*.retry
+
+# Log Files
+*.log
+
+# SSH Keys
+id_rsa*
+
+# Vagrant
+.vagrant/
+.vagrant_shared/
+
+# Vim Swap
+*.sw[p-z]
