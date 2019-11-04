@@ -1,0 +1,8 @@
+# organizations.yml
+---
+- name: Example Organization
+  tower_organization:
+    name: "Example"
+    description: "Example Organization"
+    state: present
+...

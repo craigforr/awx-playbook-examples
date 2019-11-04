@@ -1,0 +1,35 @@
+# users.yml
+---
+- name: Administrative User
+  tower_user:
+    username: admin2
+    password: password
+    email: admin@example.com
+    first_name: Administrative
+    last_name: User
+    auditor: False
+    superuser: True
+    state: present
+
+- name: Normal User
+  tower_user:
+    username: normal
+    password: password
+    first_name: Normal
+    last_name: User
+    email: normal@example.com
+    auditor: False
+    superuser: False
+    state: present
+
+- name: Auditor
+  tower_user:
+    username: auditor
+    password: password
+    email: auditor@example.com
+    first_name: Auditor
+    last_name: User
+    auditor: True
+    superuser: False
+    state: present
+...

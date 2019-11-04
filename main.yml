@@ -1,0 +1,14 @@
+# main.yml
+---
+- hosts: localhost
+  tasks:
+
+    - name: Organizations
+      import_tasks: organizations.yml
+
+    - name: Teams
+      import_tasks: teams.yml
+
+    - name: Users
+      import_tasks: users.yml
+...
