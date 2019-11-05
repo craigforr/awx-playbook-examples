@@ -1,6 +1,7 @@
 # main.yml
 ---
 - hosts: localhost
+  become: false
   tasks:
 
     - name: Organizations
