@@ -4,13 +4,13 @@
   tower_team:
     name: super
     description: The Super Team
-    organization: Example
+    organization: example
     state: present
 
 - name: Normal Team
   tower_team:
     name: normal
     description: The Not-So Super Team
-    organization: Example
+    organization: example
     state: present
 ...

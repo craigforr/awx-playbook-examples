@@ -2,7 +2,7 @@
 ---
 - name: Example Organization
   tower_organization:
-    name: Example
+    name: example
     description: Example Organization
     state: present
 ...
