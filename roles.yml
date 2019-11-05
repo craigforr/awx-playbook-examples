@@ -1,0 +1,17 @@
+# roles.yml
+---
+- name: Normal Role
+  tower_role:
+    user: normal
+    target_team: normal
+    role: member
+    state: present
+
+- name: Super Role
+  tower_role:
+    user: super
+    target_team: super
+    role: member
+    state: present
+
+...

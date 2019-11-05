@@ -12,4 +12,7 @@
 
     - name: Users
       import_tasks: users.yml
+
+    - name: Roles
+      import_tasks: roles.yml
 ...
