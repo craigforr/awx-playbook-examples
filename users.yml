@@ -1,11 +1,11 @@
 # users.yml
 ---
-- name: Administrative User
+- name: Super User
   tower_user:
-    username: admin2
+    username: super
     password: password
-    email: admin@example.com
-    first_name: Administrative
+    email: super@example.com
+    first_name: Super
     last_name: User
     auditor: False
     superuser: True
