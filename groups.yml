@@ -1,0 +1,9 @@
+# groups.yml
+---
+- name: "Local Host Group"
+  tower_group:
+    name: localhost
+    description: "Local Host Group"
+    inventory: "Local Inventory"
+    state: present
+...
