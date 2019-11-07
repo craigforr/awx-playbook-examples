@@ -15,4 +15,7 @@
 
     - name: Roles
       import_tasks: roles.yml
+
+    - name: Groups
+      import_tasks: groups.yml
 ...
