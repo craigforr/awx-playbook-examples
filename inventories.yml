@@ -1,0 +1,9 @@
+# inventories.yml
+---
+- name: Local Inventory
+  tower_inventory:
+    name: "Local Inventory"
+    description: "Local Inventory"
+    organization: example
+    state: present
+...
