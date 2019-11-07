@@ -21,4 +21,7 @@
 
     - name: Groups
       import_tasks: groups.yml
+
+    - name: Hosts
+      import_tasks: hosts.yml
 ...
